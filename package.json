@@ -1,0 +1,19 @@
+{
+  "name": "kidsflix-stremio",
+  "version": "2.0.0",
+  "description": "Addon infantil para Stremio con panel de configuración por usuario",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.0",
+    "sharp": "^0.33.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
